@@ -11,14 +11,22 @@ while (calc1 != "q"):
     calc3=calc1.lower()
     if calc3 == "q":
         break
-    calc1 = float(calc1)
+    elif len(calc1) == 0:
+        print("\n cannot be blank. Restarting...")
+        continue
+    else:
+        calc1 = float(calc1)
 
     print("\nWhat is the second operator? Or, enter q to quit: ")
     calc2 = input()
     calc3=calc2.lower()
     if calc3 == "q":
         break
-    calc2 = float(calc2)
+    elif len(calc2) == 0:
+        print("\n cannot be blank. Start over...")
+        continue
+    else:
+        calc2 = float(calc2)
 
 
     print("Enter an operation to perform on the two operators (+ or -): ")
