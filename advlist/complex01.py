@@ -22,3 +22,7 @@ print(list1)
 print(list1[4])
 # display the first item in the list (0th item) - first IP address
 print(list1[4][0])
+
+a=2
+b=3
+print(a+b)
