@@ -15,7 +15,7 @@ while (calc1 != "q"):
 
     print("\nWhat is the second operator? Or, enter q to quit: ")
     calc2 = input()
-    calc3=calc1.lower()
+    calc3=calc2.lower()
     if calc3 == "q":
         break
     calc2 = float(calc2)
