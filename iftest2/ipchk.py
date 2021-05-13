@@ -16,7 +16,7 @@ ipchk = input("Apply an IP address: ") # prompts the user for input
 if validIP(ipchk):                                                          
     print ("the ip is valid", ipchk)                                        
     parts = ipchk.split(".")                                              
-    print(int(parts[0]),int(parts[1]),int(parts[2]),int(parts[3]),sep=".")  
+    #print(int(parts[0]),int(parts[1]),int(parts[2]),int(parts[3]),sep=".")  
 else:                                                                       
     print ("the ip is not valid", ipchk)                                    
                                                                             

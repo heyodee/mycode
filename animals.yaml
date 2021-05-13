@@ -1,0 +1,10 @@
+animals:
+  - name: Fox
+    type: mammal
+  - name: Fly
+    type: insect
+  - name: Ant
+    type: insect
+    item:
+      - six_legs
+      - friendly
