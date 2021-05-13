@@ -5,6 +5,8 @@
 calc1 = 0.0
 calc2 = 0.0
 operation = ""
+
+
 while (calc1 != "q"):
     print("\nWhat is the first operator? Or, enter q to quit: ")
     calc1 = input().lower()
