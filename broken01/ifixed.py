@@ -19,6 +19,7 @@ while (calc1 != "q"):
     else:
         calc1 = float(calc1)
 
+
     print("\nWhat is the second operator? Or, enter q to quit: ")
     calc2 = input()
     calc3=calc2.lower()
