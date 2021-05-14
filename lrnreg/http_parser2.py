@@ -2,11 +2,18 @@
 import urllib.request
 import re
 
-while (searchFor != q):
+
+url=""
+searchFor=""
+while url != "q" and searchFor != "q":
     print("Where should we search? or enter q to quit")
     url = input()
-    print("Great! So we'll try to open this url " + str(url) + " to search for the phrase:")
+    if url == "q":
+        break
+    print("Great! So we'll try to open this url " + str(url) + " to search for the phrase: or enter q to quit")
     searchFor = input()
+    if searchFor == "q":
+        break
     searchMe = urllib.request.urlopen(url).read().decode("utf-8")
 
     if re.search(searchFor, searchMe):
